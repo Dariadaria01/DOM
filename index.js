@@ -1,11 +1,11 @@
-const div = document.createElement('div');
-div.id = 'product';
-div.classItem.add('element');
+function createDOM() {
+  const element = document.createElement(div);
+  div.classItem.add('item');
+  return element;
+}
 
-const container = document.querySelector('#about');
-container.appendChild(div);
-
-const div = document.querySelector('#about .produkt');
-
-const container = document.querySelector('#about');
-container.removeChild(div);
+function removeDOM() {
+  const elementToRemove = document.querySelector(div);
+  elementToRemove.remove();
+  return element;
+}
