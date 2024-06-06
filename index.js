@@ -1,11 +1,11 @@
-function createDOM() {
-  const element = document.createElement(div);
+function createDOM(tagName) {
+  const element = document.createElement(tagName);
   div.classItem.add('item');
   return element;
 }
 
-function removeDOM() {
-  const elementToRemove = document.querySelector(div);
+function removeDOM(selector) {
+  const elementToRemove = document.querySelector(selector);
   elementToRemove.remove();
   return element;
 }
